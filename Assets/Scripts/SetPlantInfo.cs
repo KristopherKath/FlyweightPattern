@@ -7,8 +7,8 @@ public class SetPlantInfo : MonoBehaviour
 {
     public GameObject plantInfoPanel;
     public GameObject plantIcon;
-    public Text planeName;
-    public Text threatLevel;
+    public Text plantName;
+    public Text threatLevel; 
 
     public void OpenPlantPanel()
     {
@@ -19,4 +19,5 @@ public class SetPlantInfo : MonoBehaviour
     {
         plantInfoPanel.SetActive(false);
     }
+
 }
